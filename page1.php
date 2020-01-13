@@ -9,7 +9,7 @@ $fruits = array("apples","pears","bananas","strawberries");
 echo "<br>";
 echo"<h2>Fruits Page</h2>";
 foreach ($fruits as $fruit) {
-    echo $fruit."<br>";
+    echo $fruit."<br>\n";
 }
 ?>
 <?php echo file_get_contents("html/footer.html"); ?>
